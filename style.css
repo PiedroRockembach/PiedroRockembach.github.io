@@ -3,19 +3,24 @@
     margin: 0px;
     padding: 0px;
 }
+li 
+{
+    list-style: none;
+}
 body
 {
-    background-color: #dfdfdf;
+    background-color: #036b52;
 }
 
 /*Divs*/
     /*Menu*/
 header
 {
+    
     position: fixed;
     font-family: fantasy;
     font-weight: 800;
-    background-color: #036b52;
+    background-color: #2fc18c;
     font-size: 28px;
     color: white;
     text-decoration: none;   
@@ -23,8 +28,19 @@ header
     text-align: center;
     overflow: hidden;
     width: 100%;
-    height:10%;
+    height:0px;
+  
+    padding-top: 50px;
+    box-shadow: 0px 3px 10px black;
+  
+    
+}
+header:hover
+{
     padding: 10px;
+    height:10%;
+    transition: 0.5s;
+    
     
 }
 #div-menu
@@ -39,21 +55,17 @@ margin-top: 20px auto 10px auto;
     height:20%;
     width: 20%;
     display: inline-block;
-    list-style: none;
-    border: 5px solid #2fc18c;
+    border-radius: 10px;
     background-color: #036b52;
     box-shadow: 2px 2px 6px rgb(37, 37, 37);
     padding: 15px;
     margin-right: 30px;
     margin-left: 30px;
-    position: relative;
     
     
-}
-#div-menu li:hover
-{
     
 }
+
 #div-menu a
 {
     text-align: center;
@@ -61,11 +73,22 @@ margin-top: 20px auto 10px auto;
     text-decoration: none;
     text-shadow: 1px 1px 4px rgb(25, 25, 25);
     color: #dfdfdf;
-    position: relative;
+    
     
 
 }
 #piedro-picture
 {
     position: relative;
+}
+
+/* sections */
+.section-body
+{
+    margin-top: 180px;
+    margin:auto;
+    padding: 2%;
+    width: 95%;
+    border: 2px solid #036b52;
+    background-color: #dfdfdf;
 }
