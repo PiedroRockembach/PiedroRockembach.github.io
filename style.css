@@ -179,7 +179,12 @@ figure
 #competencias li
 {
     list-style:disc;
+    background-color: #c5c5c5;
 
+}
+#competencias li:nth-child(odd)
+{
+    background-color: #dfdfdf;
 }
 
 /* Galeria */
