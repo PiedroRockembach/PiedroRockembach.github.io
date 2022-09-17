@@ -14,12 +14,20 @@ body
     background-color: #2fc18c;
     font-size: 22px;
 }
+h1
+{   
+    font-size: 50px;
+    text-align: center;
+}
+h2
+{
+    font-size: 32px;
+}
 
-/*Divs*/
     /*Menu*/
 header
 {
-    
+    z-index: 5;
     position: fixed;
     font-family: fantasy;
     font-weight: 800;
@@ -38,7 +46,7 @@ header
   
     
 }
-
+/*Divs*/
 #div-menu
 {
 margin-top: 0px;
@@ -92,11 +100,7 @@ margin-top: 0px;
     border: 2px solid #036b52;
     background-color: #dfdfdf;
 }
-div#title
-{   
-    font-size: 32px;
-    text-align: center;
-}
+
 /* ----------------------------------------------------------------------------------------------------------------------- */
 #descricao
 {
@@ -162,3 +166,18 @@ figure
     padding: 1%;
 }
 
+/* Competencias */
+
+#competencias
+{
+    border-top:2px solid rgba(88, 88, 88, 0.521);
+    padding: 2%;
+    line-height: 30px;
+}
+#competencias li
+{
+    list-style:disc;
+
+}
+
+/* Galeria */
