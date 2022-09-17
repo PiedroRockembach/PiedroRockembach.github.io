@@ -109,6 +109,9 @@ div#title
 }
 #piedro-picture
 {
+    text-align: center;
+    
+    position: relative;
     width: 20%;
     float: left;
     
@@ -116,8 +119,37 @@ div#title
 
 #piedro-picture img
 {
+    
     border: 3px solid #3d3d3d;
-    width:100%;
+    width:95%;
+}
+figure
+{
+    position: relative;
+}
+#linkpic
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #3d3d3d00;
+    font-size: 0px;
+    
+}
+#linkpic:hover
+{
+    background-color: #3d3d3d1c;
+}
+#linkedin
+{
+
+    width: 20%;
+    position: absolute;
+    bottom:0px;
+    left: 3px;
 }
 
 #piedro-description
@@ -129,3 +161,4 @@ div#title
     margin: auto;
     padding: 1%;
 }
+
