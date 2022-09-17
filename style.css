@@ -3,6 +3,7 @@
     font-family: monospace, Arial, sans-serif;   
     margin: 0px;
     padding: 0px;
+    
 }
 li 
 {
@@ -11,6 +12,7 @@ li
 body
 {
     background-color: #2fc18c;
+    font-size: 22px;
 }
 
 /*Divs*/
@@ -77,10 +79,7 @@ margin-top: 0px;
     
 
 }
-#piedro-picture
-{
-    position: relative;
-}
+
 
 /* sections */
 .section-body
@@ -93,12 +92,73 @@ margin-top: 0px;
     border: 2px solid #036b52;
     background-color: #dfdfdf;
 }
-section div
-{
-    border: 2px solid #343333bd;
-}
 div#title
 {   
     font-size: 32px;
     text-align: center;
 }
+/* ----------------------------------------------------------------------------------------------------------------------- */
+#descricao
+{
+    background-color: #ececec;
+    margin: 10% 1% ;
+    padding: 2%;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0,0.8);
+    display: inline-block;
+    
+}
+#piedro-picture
+{
+    text-align: center;
+    
+    position: relative;
+    width: 20%;
+    float: left;
+    
+}
+
+#piedro-picture img
+{
+    
+    border: 3px solid #3d3d3d;
+    width:95%;
+}
+figure
+{
+    position: relative;
+}
+#linkpic
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #3d3d3d00;
+    font-size: 0px;
+    
+}
+#linkpic:hover
+{
+    background-color: #3d3d3d1c;
+}
+#linkedin
+{
+
+    width: 20%;
+    position: absolute;
+    bottom:0px;
+    left: 3px;
+}
+
+#piedro-description
+{
+    width: 70%;
+    float: right;
+    text-align: justify;
+    height: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
