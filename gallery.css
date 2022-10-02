@@ -1,0 +1,14 @@
+
+#gallery
+{
+    border:2px solid rgba(88, 88, 88, 0.521);
+    padding: 2%;
+    line-height: 30px;
+    
+}
+.galleryElement{
+    display: inline-block;
+    background-color: bisque;
+    height: 200px;
+    border: 1px solid black;
+}
