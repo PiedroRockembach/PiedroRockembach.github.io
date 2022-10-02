@@ -7,20 +7,24 @@ let galleryHowMany = projects.childNodes;
 
 // Criar projeto piskcel
 
-let pisqicelDiv = document.createElement('div');
+let pisqicelDiv = document.createElement('a');
+pisqicelDiv.href = 'https://piedrorockembach.github.io/pisqicel.github.io/'
+pisqicelDiv.target = '_blank';
 pisqicelDiv.id = 'pisqicel';
 pisqicelDiv.classList.add('galleryElement');
 projects.appendChild(pisqicelDiv);
+let pisqicelImage = document.createElement('img');
+pisqicelImage.src = '/images/pisqicel.png';
+pisqicelImage.id = 'pisqicelImg';
 
-let pisqicelDiv2 = document.createElement('div');
-pisqicelDiv2.id = 'pisqicel2';
-pisqicelDiv2.classList.add('galleryElement');
-projects.appendChild(pisqicelDiv2);
+pisqicelDiv.appendChild(pisqicelImage);
 
 
-gallery.addEventListener("click", function(){
+pisqicelImage.style.width = '100%'
+
+gallery.addEventListener("change", function(){
     gallery.style.width = gallerySize + 'px';
-    galleryElement.style.width = '30%';
+    
 
 
 });
