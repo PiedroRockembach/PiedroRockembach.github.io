@@ -28,7 +28,6 @@ h2
 header
 {
     z-index: 5;
-    position: fixed;
     font-family: fantasy;
     font-weight: 800;
     background-color: #2fc18c;
@@ -42,7 +41,7 @@ header
     padding:3%;
     padding-top: 1%;
     padding-bottom: 5%;
-    box-shadow: 0px 3px 10px #036b52;
+
   
     
 }
@@ -53,24 +52,12 @@ margin-top: 0px;
     
     
 }
-#div-menu li
-{
-    
-    width: 20%;
+#div-menu li {
     display: inline-block;
-    border-radius: 10px;
-    background-color: #036b52;
-    box-shadow: 2px 2px 6px rgb(37, 37, 37);
-    padding: 1%;
-    margin-right: 5%;
-    margin-left: 5%;
-    
-    
-    
-    
-    
+    width: 25%;
+    margin: 20px 20px 0px 20px;
 }
-#div-menu li:hover
+#div-menu a:hover
 {
     background-color: #085744;
     color: white;
@@ -82,8 +69,14 @@ margin-top: 0px;
     vertical-align:top;
     text-decoration: none;
     text-shadow: 1px 1px 4px rgb(25, 25, 25);
-    
-    
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #036b52;
+    box-shadow: 2px 2px 6px rgb(37, 37, 37);
+    padding: 25px 0px;
+    margin-right: 5%;
+    margin-left: 5%;
     
 
 }
@@ -93,7 +86,6 @@ margin-top: 0px;
 .section-body
 {
     padding: 2%;
-    padding-top:10%;
     margin: auto;
     
     width: 90%;
