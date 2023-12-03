@@ -4,71 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="gallery.css">
     
     <title>Portifolio</title>
 </head>
 <body>
     <header>
-
-    
-    
     <nav id="nav-menu">
-    
-        <a href="#descricao" id="a-description">Quem é Piedro</a>
-        <a href="#competencias" id="a-competitions">Competências</a>
-        <a href="#gallery" id="a-gallery">Galeria</a>
-        
-        
-
+        <a href="#about-me" id="a-competitions">Sobre mim</a>
+        <a href="#gallery" id="a-gallery">Projetos</a>
+    </nav>
+    <nav id="nav-contact">
+        <a href="https://www.linkedin.com/in/piedro-rockembach-nunes-dev/"> <img src="./images/linkedin-white.svg" alt="Linkedin profile"> </a>
+        <a href="https://github.com/PiedroRockembach"><img src="./images/github.svg"></a>
+        <a href="mailto:piedrorn@gmail.com"><img src="./images/mail.png"></a>
     </nav>
     </header>
     
-    <section class="section-body">
-        <h1>Piedro Rockembach Nunes</h1>
-        <div id="descricao">
-                <h2>Quem é Piedro</h2>
-                <br>
-            <div id="piedro-description">
-                <div id="piedro-picture">
-                    <figure>
-                        <img src="images/piedro-perfil.png" alt="Selfie de Piedro Rockembach Nunes">
-                        <a href="images/piedro-perfil.png" target="_blank" id="linkpic">picture</a>
-                    </figure>       
-                    
-                    <a href="https://www.linkedin.com/in/piedro-rockembach-nunes-87230524b/" id="linkedin" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a>
-                    
+    <main class="main">
+        <section id="descricao" class="profile-section">
+                <div class="profile-picture">
+                    <img src="images/small-piedro-perfil.png" alt="foto de Piedro Rockembach Nunes">
+                    <h1>Piedro Rockembach</h1>
                 </div>
-                <div class="texts">
-                    <p>Sou brasileiro, nasci e cresci em <em>Pelotas-RS</em>.
-                    <br>
-                    Desde minha infância, tenho a programação como hobbie e no ano de 2022 decidi me unir à <strong> turma 27 da Trybe </strong> buscando os conhecimentos e experiências para me tornar um <strong>desenvolvedor de sucesso</strong>.
-                    <br>
-                    Um pouco do que eu faço pode ser encotrado no meu <a href="https://twitter.com/oDropie" target="_blank">Twitter, @oDropie.</a> 
+                <div class="text-long">
+                    <p>Sou formado em Front-End, Back-End, Ciência da Computação e C#, com uma paixão pelo uso da tecnologia para compreender os problemas das pessoas e encontrar soluções criativas e práticas. Tenho foco em back-End usando javaScript com express, e Front-End com React e Next.js.
                     </p>
                 </div>
-            </div>
-        </div>
-        <div id="competencias">
-            <h2>Minhas habilidades</h2>
+        </section>
+        
+        <div class="gallery profile-section" id="gallery">
+            <h1>Projetos</h1>
             <br>
-            <ul>
-                <li>Inglês Intermediário/Avançado</li>
-                <li>HTML Intermediário</li>
-                <li>CSS Intermediário</li>
-                <li>JavaScript Intermediário</li>
-                <li>Conhecimento básico de Unity e C#.</li>
-            </ul>
+            <section class="projects" >
+
+            </section>
         </div>
-        <div id="gallery">
-            <h2>Galeria</h2>
-            <br>
-            <section id="projects" ></section>
-        </div>
-    </section>
+        <section id="about-me" class="profile-section">
+            <p class="text-long">
+                Sou impulsionado pela minha criatividade. Entrei no universo da programação por ser apaixonado por arte, desde desenho até literatura; criar coisas sempre me atraiu. Quando descobri que poderia desenvolver soluções únicas para problemas, ou criar ferramentas completamente novas através de códigos e tecnologia, percebi que escolheria esta área para seguir minha carreira.
+                <br>
+                <br>
+
+                Possuo um nível intermediário de inglês, o que me permite absorver materiais técnicos, redigir pequenas descrições e comunicar-me de forma assertiva com outras pessoas. Estou dando os primeiros passos em minha carreira, e meu objetivo atual é aprender e crescer por meio da colaboração com profissionais mais experientes, enfrentando os desafios que surgirem no caminho
+            </p>
+        </section>
+    </main>
     
+    <footer>
+        <div>
+            <span>Icones retirados de <a target="_blank" href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub</a></span>
+            <span>icon by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+        </div>
+    </footer>
     <script src="./gallery.js"></script>
 </body>
 </html>
