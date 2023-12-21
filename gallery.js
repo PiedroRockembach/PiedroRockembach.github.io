@@ -41,10 +41,27 @@ createProject({
     github: 'https://github.com/PiedroRockembach/TrybeTunes-Portifolio',
     link: 'https://trybe-tunes-delta.vercel.app/',
     description: 'Um clone do Itunes feito em React consumindo a api do Itunes.',
-    id: 'TrybeTunes',
+    id: 'trybe-tunes',
     url: './images/TrybeTunes.png',
     name: 'Trybe Tunes'
 });
+
+// createProject({
+//     github: 'https://github.com/PiedroRockembach/trybe-hotel',
+//     description: 'Sistema de cadastro e gestão de hóspedes para uma rede de hoteis',
+//     id: 'trybe-hotel',
+//     url: './images/Csharp-logo.png',
+//     name: 'Trybe Hotel'
+// });
+
+createProject({
+    github: 'https://github.com/PiedroRockembach/trybers-and-dragons',
+    description: 'Sistema de controle de personagens de um rpg no mundo de D&D',
+    id: 'trybers-and-dragons',
+    url: './images/typescript-logo.svg',
+    name: 'Trybers & Dragons'
+});
+
 createProject({
     github: 'https://piedrorockembach.github.io/pisqicel.github.io/',
     link: 'https://piedrorockembach.github.io/pisqicel.github.io/',

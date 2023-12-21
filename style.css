@@ -1,9 +1,11 @@
-*
-{
-    font-family: monospace, Arial, sans-serif;   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: Poppins;  
     margin: 0px;
     padding: 0px;
     box-sizing: content-box;
+    font-weight: 200;
     
 }
 li 
@@ -101,7 +103,7 @@ img {
 }
 .text-long {
     font-size: clamp(10pt, 2vw, 20pt);
-    width: clamp(80vw, 80%, 95vw);
+    width: clamp(40vw, 80%, 50vw);
     display: flex;
     align-items: center;
     text-align: justify;
@@ -147,13 +149,20 @@ img {
 }
 .project-page-link {
     text-decoration: none;
-    color:#111017;
-    background-color: #D8E4FF;
+    color:#D8E4FF;
+    background-color: #111017;
     border-radius:  10px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
+    transition: 0.3s;
+}
+
+.project-page-link:hover {
+    background-color: #D8E4FF;
+    font-weight: 800;
+    color: #111017;
 }
 .githubLink {
     width: clamp(3vw, 30px, 40vw);
